@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;width: 100px;
+            background-color: aquamarine;
+            margin: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+             transition: all 1s ease-in-out 0ms;
+        }
+        #box1:hover{
+           background-color: red;
+            transform: rotate(45deg);
+        }
+        #box2:hover{
+            background-color: chartreuse;
+            transform: rotate(180deg);
+        }
+        #box3:hover{
+            background-color: coral;
+            transform: rotateX(45deg);
+        }
+        #box4:hover{
+            background-color: goldenrod;
+            transform: rotateY(70deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">BOX1</div>
+    <div id="box2" class="box">BOX2</div>
+    <div id="box3" class="box">BOX3</div>
+    <div id="box4" class="box">BOX4</div>
+</body>
+</html>

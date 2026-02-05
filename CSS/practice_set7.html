@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 10px; width: 500px;
+            margin: 20px;
+            border:3px solid black;
+            border-radius: 20px;
+        }
+        #box1{
+            background-color: crimson;
+            height: 100%;
+            width: 20%;
+            border-radius: 20px;
+            animation: progressbar 4s linear 1s infinite normal;
+            
+
+        }
+        @keyframes progressbar {
+            0%{ width:0% ;}
+            80%{
+                width: 98%;
+            }
+            90%{
+                width: 90%;
+            }
+
+  100%{width: 100%; 
+            
+            }
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div id="box1"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation and transitions</title>
+    <Style>
+.pseudo{
+    height: 25px; width: 100px;
+    border: 2px solid blue;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    /* transition: all 1s steps(3) 0s; */
+}
+.pseudo:hover{
+    height: 40px; width: 120px;
+    background-color: aquamarine;
+}
+.pseudo:active{
+    background-color: chartreuse;
+    border: 2px solid indianred;
+}
+
+
+</Style>
+</head>
+
+<body>
+    <button class="pseudo">Click me</button>
+</body>
+</html>

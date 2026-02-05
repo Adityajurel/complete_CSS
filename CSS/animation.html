@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px; width: 100px;
+            background-color: chartreuse;
+            border: 2px solid black;
+            position: relative;
+            top: 10px;
+            left: 10px;
+            border-radius: 40px;
+            text-align: center;
+            /* animation-name: ghumadomujhe;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse; */
+            animation: ghumadomujhe 4s linear 1ms infinite alternate;
+        }
+        @keyframes ghumadomujhe {
+            0%{left: 10px; }
+            20%{top: 50px; }
+            50%{top: 0px;}
+            80%{ top: 200px;}
+            100%{left: 250px;  }
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box1</div>
+</body>
+</html>
